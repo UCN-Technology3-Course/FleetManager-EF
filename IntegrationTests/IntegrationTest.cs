@@ -7,9 +7,27 @@ namespace IntegrationTests
     public class IntegrationTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestCreateCar()
         {
+            Assert.Inconclusive();
+        }
 
+        [TestMethod]
+        public void TestUpdateCar()
+        {
+            Assert.Inconclusive();
+        }
+
+        [TestMethod]
+        public void TestDeleteCar()
+        {
+            Assert.Inconclusive();
+        }
+
+        [TestMethod]
+        public void TestGetCars()
+        {
+            Assert.Inconclusive();
         }
     }
 }
