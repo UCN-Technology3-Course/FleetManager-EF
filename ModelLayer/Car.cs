@@ -13,6 +13,7 @@ namespace ModelLayer
         public FuelType Fuel { get; set; }
         public int PassengerCapacity { get; set; }
         public int KilometersDriven { get; set; }
+        public string Description { get; set; }
         public Location Location { get; set; }
     }
 
