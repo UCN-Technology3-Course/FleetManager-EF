@@ -65,9 +65,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataAccessLayerEF\DataAccessLayerEF.csproj">
-      <Project>{01493681-fe33-4349-92c1-d976c2929aa1}</Project>
-      <Name>DataAccessLayerEF</Name>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{01493681-FE33-4349-92C1-D976C2929AA1}</Project>
+      <Name>DataAccessLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\ModelLayer\ModelLayer.csproj">
       <Project>{da6c1161-42e8-43ff-83b5-4277aa74b957}</Project>
