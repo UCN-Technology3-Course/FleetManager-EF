@@ -1,17 +1,12 @@
-﻿using ModelLayer;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DataAccessLayer
 {
-    class CarContext : DbContext
+    public class CarContext
     {
-       
-
-        public DbSet<Car> Cars { get; set; }
     }
 }
